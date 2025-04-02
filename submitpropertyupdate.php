@@ -8,8 +8,6 @@ if(!isset($_SESSION['uemail']))
 	header("location:login.php");
 }
 
-//// code insert
-//// add code
 
 $msg="";
 if(isset($_POST['add']))
